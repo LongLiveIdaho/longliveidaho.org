@@ -65,7 +65,7 @@ section.features .feature-item h3{font-size:30px}
 
 section.info{background:#335e8e;padding:20px 0;font-size:14px;color:#fff}
 section.info .info-item{color:#fff;margin:1rem auto}
-section.info .info-num{font-size:1rem;color:#fff}
+section.info .info-num{font-size:1rem;color:#fff;font-weight:500}
 @media screen and (min-width:320px) {section.info .info-num{font-size:2rem}}
 @media screen and (min-width:768px) {section.info .info-num{font-size:2.5rem}}
 @media screen and (min-width:992px) {section.info .info-num{font-size:3rem}}
