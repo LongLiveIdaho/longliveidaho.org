@@ -14,6 +14,7 @@ section{padding:7.5rem 0}
 #mainNav{border-color:rgba(34,34,34,.05);background-color:#fff;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-weight:200;border-bottom:1px solid rgba(34,34,34,.15)}
 #mainNav .navbar-brand{color:#666;font-weight:700}
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#8e335e}
+#mainNav .navbar-tagline{font-size:1rem;font-weight:400;color:#666} /* match org tagline style to navbar links */
 #mainNav .navbar-toggler{font-size:12px;padding:8px 10px;color:#666}
 #mainNav .navbar-nav>li>a{font-size:1rem;font-weight:400;padding-left:1.5rem;padding-right:1.5rem}
 #mainNav .navbar-nav>li>a.active{color:#8e335e!important;background-color:transparent}
@@ -32,8 +33,8 @@ section{padding:7.5rem 0}
 #mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,#mainNav.navbar-shrink .navbar-nav>li>a:hover{color:#8e335e}}
 
 
-header.masthead{position:relative;width:100%;padding-top:150px;padding-bottom:100px;color:#111;background:#fff}
-header.masthead .header-content{margin-bottom:100px;text-align:center;padding-top:6rem}
+header.masthead{position:relative;width:100%;color:#111;background:#fff}
+header.masthead .header-content{text-align:center;padding-top:6rem}
 header.masthead .header-content h2{font-weight:700;color:#335e8e}
 @media screen and (min-width: 320px) {header.masthead .header-content h2 {font-size:3.2rem;line-height:3.5rem !important}}  
 @media screen and (min-width: 768px) {header.masthead .header-content h2 {font-size:4.5rem;line-height:5rem !important}}  
@@ -90,7 +91,7 @@ section.download .download-item{padding-top:50px;padding-bottom:50px;text-align:
 section.download .download-item h3{font-size:30px}
 
 
-section.instructions{background:#fff}
+section.instructions{background:#f7f7f7}
 section.instructions .section-heading h2{font-size:3.7rem !important; margin-top:0}
 @media (min-width:992px) {section.instructions .section-heading h2{font-size:2.5rem}}
 section.instructions .section-heading h3{font-size:1.7rem;font-weight:500;line-height:2.5rem}
@@ -105,7 +106,7 @@ section.instructions h5{padding-top:0.3rem;line-height:1.3rem;font-size:0.9rem}
 section.instructions h3{font-weight:400;padding-top:1rem;}
 
 
-section.about{background:#f7f7f7}
+
 section.about .section-heading h2{font-size:3.7rem !important;margin-top:0}
 @media screen and (min-width:320px) and (max-width:570px) {section.about .section-heading h2{font-size:3rem !important;margin-top:0}}
 @media (min-width:992px) {section.about .section-heading h2{font-size:2.5rem}}
@@ -143,26 +144,25 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 .pha-disclaimer{font-size:0.8rem;margin:0;padding-top:5rem}
 .pha-cutoff{border-bottom:1px solid #dcdcdc}
 .pha-caption{padding-top:0.5rem;padding-bottom:0.5rem;line-height:1.7rem;font-size:1.3rem}
+
 .pha-button{background-color:#8e335e;border-radius:28px;border:1px solid #8e335e;display:inline-block;cursor:pointer;color:#fff !important;font-family:Arial;font-size:1.4rem;padding:16px 33px;text-decoration:none}
 .pha-button:hover{background-color:#8e335e;color:#fff}
 .pha-button:active{position:relative;top:1px;color:#fff}
 .pha-button:visited{color:#fff}
+
+.wca-button{background-color:#fff;border-radius:28px;border:1px solid #fff;display:inline-block;cursor:pointer;color:#335e8e !important;font-family:Arial;font-size:1.4rem;font-weight:600;padding:16px 33px;text-decoration:none}
+.wca-button:hover{background-color:#fff;color:#335e8e}
+.wca-button:active{position:relative;top:1px;color:#335e8e}
+.wca-button:visited{color:#335e8e;font-weight:600}
+
 .pha-iframe-container {position:relative;overflow:hidden;width:100%;padding-top:56.25%;margin-top:1.8rem; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */}
 .pha-iframe {position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%}
-.pha-container-padding {margin-top:-4rem !important}
 .pha-center-block {display:block; margin-right:auto; margin-left:auto}
 .pha-bold-blue {color:#335e8e; font-weight:600 !important}
 .pha-extra-bold {color:#666666; font-weight:600 !important}
 .pha-qr-code-xy {margin-top:-0.7rem; max-height:223px}
 .pha-apple-share-icon {max-height:20px; margin-top:-0.3em}
 .pha-android-menu-icon {max-height:30px; margin:-0.1em -.25em 0em -.25em}
-
-
-
-
-
-
-
 
 
 
